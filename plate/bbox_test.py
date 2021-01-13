@@ -96,7 +96,7 @@ for img_info in ann_info:
 
     plt.close(fig)  # close figure memory
 
-    # cv2.imwrite(result_path, result_image)
+    # cv2.imwrite(result_path, result_image) # save result_image
 
     cv2.imshow("test", result_image)
 
